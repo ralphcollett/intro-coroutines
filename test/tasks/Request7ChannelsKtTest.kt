@@ -4,7 +4,6 @@ import contributors.MockGithubService
 import contributors.concurrentProgressResults
 import contributors.testRequestData
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.test.currentTime
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert
