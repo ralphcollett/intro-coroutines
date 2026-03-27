@@ -43,3 +43,9 @@ sourceSets {
     main.resources.srcDirs = ['resources']
     test.kotlin.srcDirs = ['test']
 }
+
+compileTestKotlin {
+    compilerOptions {
+        freeCompilerArgs.add("-Xuse-experimental=kotlin.Experimental")
+    }
+}
